@@ -27,19 +27,21 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a asp-page="/Index" class="navbar-brand">FinalProject</a>
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Dropdown 
-                    <i class="fa fa-caret-down"></i>
-                </button>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div>
             </div> 
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
+                    <li>            
+                        <div class="dropdown">
+                            <button class="dropbtn">Dropdown 
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div> 
+                    </li>
                     <li><a asp-page="/Index">Home</a></li>
                     <li><a asp-page="/View">View</a></li>
                     <li><a asp-page="/Notifications">Notifications</a></li>
